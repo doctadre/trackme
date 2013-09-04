@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/courtesyModeToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable courtesy mode" />
+
+
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/courtesySettingsMenuButton"
+        style="@android:style/ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Courtesy Mode Settings" />
+
+    <Button
+        android:id="@+id/weekViewButton"
+        style="@android:style/ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:text="View Hours" />
+
+    <Button
+        android:id="@+id/timesheetButton"
+        style="@android:style/ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:text="Create Timesheet" />
+    
+</LinearLayout>
